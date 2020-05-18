@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"github.com/dickykmrlh/themaze/src"
+)
 
 func main(){
-	fmt.Println("Hello World!")
+	simpleMazeFactory := &src.SimpleMaze{}
+	src.CreateMaze(simpleMazeFactory)
 }
