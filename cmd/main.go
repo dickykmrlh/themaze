@@ -6,6 +6,6 @@ import (
 
 func main(){
 	//simpleMazeFactory := &src.SimpleMaze{}
-	enchantedMazeFactory := &src.EnchantedMaze{}
+	enchantedMazeFactory := &src.SimpleMaze{}
 	src.CreateMaze(enchantedMazeFactory)
 }
