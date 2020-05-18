@@ -1,0 +1,1 @@
+The Maze is Mini game, a place holder for me to learn design pattern
