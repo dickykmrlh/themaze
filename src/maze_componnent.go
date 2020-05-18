@@ -13,6 +13,7 @@ type MapSite interface {
 type Room struct {
 	sides [4]MapSite
 	RoomNumber int
+	isEnchanted bool
 }
 
 func (r *Room) SetSide(direction common.Direction, site MapSite) {
@@ -43,6 +44,7 @@ func (w *Wall) Enter() {
 type Door struct {
 	Room1, Room2 *Room
 	isOpen bool
+	isEnchanted bool
 }
 
 func (d *Door) Enter() {
