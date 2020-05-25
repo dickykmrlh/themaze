@@ -5,7 +5,7 @@ import (
 )
 
 func main(){
-	//simpleMazeFactory := &src.SimpleMaze{}
-	enchantedMazeFactory := &src.SimpleMaze{}
-	src.CreateMaze(enchantedMazeFactory)
+	//simpleMazeBuilder := &src.SimpleMaze{}
+	enchantedMazeBuilder := &src.SimpleMaze{}
+	src.CreateMaze(enchantedMazeBuilder)
 }
