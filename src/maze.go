@@ -4,6 +4,11 @@ import (
 	"github.com/dickykmrlh/themaze/common"
 )
 
+// Maze
+type Maze struct {
+	rooms map[int]*Room
+}
+
 func CreateMaze(factory MazeFactory) *Maze{
 	r1 := factory.MakeRoom(1)
 	r2 := factory.MakeRoom(2)
