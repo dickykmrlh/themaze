@@ -1,14 +1,5 @@
 package src
 
-func (m *Maze) AddRoom(room *Room) {
-	m.rooms[room.RoomNumber] = room
-}
-
-func (m *Maze) SearchForRoom(roomNo int) (*Room, bool) {
-	r, ok := m.rooms[roomNo]
-	return r, ok
-}
-
 type MazeFactory interface {
 	MakeMaze() *Maze
 	MakeWall() *Wall

@@ -9,6 +9,15 @@ type Maze struct {
 	rooms map[int]*Room
 }
 
+func (m *Maze) AddRoom(room *Room) {
+	m.rooms[room.RoomNumber] = room
+}
+
+func (m *Maze) SearchForRoom(roomNo int) (*Room, bool) {
+	r, ok := m.rooms[roomNo]
+	return r, ok
+}
+
 func CreateMaze(factory MazeFactory) *Maze{
 	r1 := factory.MakeRoom(1)
 	r2 := factory.MakeRoom(2)
