@@ -1,5 +1,10 @@
 package src
 
+// Maze
+type Maze struct {
+	rooms map[int]*Room
+}
+
 func CreateMaze(builder MazeBuilder) *Maze{
 	builder.BuildMaze()
 

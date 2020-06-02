@@ -5,11 +5,6 @@ import (
 	"math/rand"
 )
 
-// Maze
-type Maze struct {
-	rooms map[int]*Room
-}
-
 func (m *Maze) AddRoom(room *Room) {
 	m.rooms[room.RoomNumber] = room
 }
