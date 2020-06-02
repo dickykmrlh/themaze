@@ -5,20 +5,6 @@ import (
 	"math/rand"
 )
 
-// Maze
-type Maze struct {
-	rooms map[int]*Room
-}
-
-func (m *Maze) AddRoom(room *Room) {
-	m.rooms[room.RoomNumber] = room
-}
-
-func (m *Maze) SearchForRoom(roomNo int) (*Room, bool) {
-	r, ok := m.rooms[roomNo]
-	return r, ok
-}
-
 type MazeBuilder interface {
 	BuildMaze()
 	BuildRoom(n int)
