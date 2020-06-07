@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/dickykmrlh/themaze/src"
+	"github.com/dickykmrlh/themaze/creational_pattern"
 )
 
 func main(){
-	//simpleMazeBuilder := &src.SimpleMaze{}
-	enchantedMazeBuilder := &src.SimpleMaze{}
-	src.CreateMaze(enchantedMazeBuilder)
+	//simpleMazeBuilder := &creational_pattern.SimpleMaze{}
+	enchantedMazeBuilder := &creational_pattern.SimpleMaze{}
+	creational_pattern.CreateMaze(enchantedMazeBuilder)
 }

@@ -1,4 +1,4 @@
-package src
+package creational_pattern
 
 import (
 	"github.com/dickykmrlh/themaze/common"

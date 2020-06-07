@@ -1,4 +1,4 @@
-package src
+package creational_pattern
 
 func CreateMaze(builder MazeBuilder) *Maze{
 	builder.BuildMaze()
