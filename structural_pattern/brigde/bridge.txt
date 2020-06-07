@@ -1,0 +1,7 @@
+bridge pattern
+
+No need an example due to I already use this pattern a lot, even though I did not know it was called bridge pattern.
+Usually we called it domain-interface pattern, where domain can be plug with different implementation.
+
+in bridge pattern this domain is called abstraction, this is very useful pattern because we can make it into a stub,
+giving them a mock implementation for unit test
