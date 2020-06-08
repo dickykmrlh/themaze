@@ -1,11 +1,7 @@
 package main
 
-import (
-	"github.com/dickykmrlh/themaze/creational_pattern"
-)
+import "github.com/dickykmrlh/themaze/structural_pattern/composite"
 
-func main(){
-	//simpleMazeBuilder := &creational_pattern.SimpleMaze{}
-	enchantedMazeBuilder := &creational_pattern.SimpleMaze{}
-	creational_pattern.CreateMaze(enchantedMazeBuilder)
+func main() {
+	composite.PlayingAroundWithCompositePattern()
 }
