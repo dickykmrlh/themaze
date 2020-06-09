@@ -1,0 +1,5 @@
+facade pattern.
+
+I've been using this a lot, e.g the domain that i made offer simplicity look of what usecase want,
+it's doesn't know that domain, actually, do alot of thing under the hood, to generate just a simple request
+but usecase doesn't need to know that.
